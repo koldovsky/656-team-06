@@ -2,31 +2,40 @@
 .header__nav-top{
     background-color: rgb(187, 37, 40);
     display: flex;
+    justify-content: space-around;
 }
 .header__top-nav-phone {
     font-family: "Fira Sans", sans-serif;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    flex:1;
-    text-decoration: none;
+    justify-content: space-around;
 }
 .header__top-nav-email{
     font-family: "Fira Sans", sans-serif;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    flex:1;
-    padding-left: 10px;
-    text-decoration: none;
+    justify-content: space-around;
 }
 .header__time{
     font-family: "Fira Sans", sans-serif;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    flex:1;
-    padding-left: 10px;
+    justify-content: space-around;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .header__nav-logo-img{
     width: 96px;
+}
+.header__menu-items {
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+}
+.header__menu-items:hover {
+    color:rgb(187, 37, 40);
 }
 .header__block-text-one{
     color: rgb(187, 37, 40);
@@ -43,17 +52,5 @@
     font-family: "Fira Sans", sans-serif;
     font-size: 18px;
 }
-.header__menu{
-    display: flex;
-    
-    padding-left: 10px;
 
-}
-.header__menu-items{
-    text-decoration: none;
-    color: rgb(35, 35, 35);
-    flex:1;
-}
-.header__menu-items:hover {
-    color:rgb(187, 37, 40);
 }
