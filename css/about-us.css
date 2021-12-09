@@ -23,6 +23,7 @@
 .about-us{
     display:flex;
     flex-direction:row;
+    background-color: aqua;
 }
 .christmas_picture{
     width:50%;
