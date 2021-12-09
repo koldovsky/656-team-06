@@ -28,5 +28,6 @@
     width:50%;
 }
 .logo{
-    width:50px;
+    width:500px;
+    flex-direction:row;
 }
