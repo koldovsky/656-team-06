@@ -37,6 +37,18 @@
 .header__menu-items:hover {
     color:rgb(187, 37, 40);
 }
+.conteiner-white{
+    position: relative;
+}
+.header__block-text{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    bottom: 400px;
+    padding:40px ;
+    
+
+
+}
 .header__block-text-one{
     color: rgb(187, 37, 40);
     font-family: "Grand Hotel", undefined;
@@ -53,4 +65,3 @@
     font-size: 18px;
 }
 
-}
