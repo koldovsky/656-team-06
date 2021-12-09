@@ -19,11 +19,10 @@
     text-align:left;
  }
 .about-us{
-    display:flex;
-    flex-direction: column;
-    height: 100%;
+    display:grid;
+    grid-template-rows:50% 25% 25%;
+
 }
 .christmas_picture{
     width: 50%;
-    flex:1;
 }
