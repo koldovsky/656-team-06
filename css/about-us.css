@@ -18,11 +18,4 @@
     font-weight: 400;
     text-align:left;
  }
-.about-us{
-    display:grid;
-    grid-template-rows:50% 25% 25%;
 
-}
-.christmas_picture{
-    width: 50%;
-}
