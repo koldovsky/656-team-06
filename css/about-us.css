@@ -1,0 +1,26 @@
+.heading-about{
+    color: rgb(187,37,40);
+    font-family:"Grandd Hotel",undefined;
+    font-size:14px;
+    font-weight:400;
+    text-align:left;
+}
+.heading-all_kind{
+    font-family:"Playfair Display", serif;
+    font-weight:600;
+    color:#232323;
+    font-size:56px;
+    text-align:left;
+}
+.text-christmas{
+    color:#4f4f4f ;
+    font-size:16px;
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 400;
+    text-align:left;
+ }
+
+.about-us{
+    display:flex;
+    flex-direction:row;
+}
