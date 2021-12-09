@@ -10,6 +10,7 @@
     font-weight:600;
     color:#232323;
     font-size:56px;
+    text-align:left;
 }
 .text-christmas{
     color:#4f4f4f ;
@@ -18,6 +19,8 @@
     font-weight: 400;
     text-align:left;
  }
-.text-about-us{
-    background-color: #e7e4df ;
+
+.about-us{
+    display:flex;
+    flex-direction:row;
 }
