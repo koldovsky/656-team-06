@@ -31,7 +31,8 @@
 }
 .logo{
     width: 50px;
-  margin-top:60%
+  display:flex;
+  flex-direction:row;
 }
 .text-about-us{
     margin-top:3cm;
