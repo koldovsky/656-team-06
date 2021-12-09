@@ -23,13 +23,17 @@
 .about-us{
     display:flex;
     flex-direction:row;
-    background-color:antiquewhite;
+    background-color:rgb(243, 238, 232);
 }
 .christmas_picture{
     width:50%;
+    margin-left:-20%;
 }
 .logo{
     width:60px;
     display:flex;
     flex-direction:row;
+}
+.text-about-us{
+    margin-top:10%;
 }
