@@ -23,13 +23,13 @@
 .about-us{
     display:flex;
     flex-direction:row;
-    background-color: aqua;
+    background-color:antiquewhite;
 }
 .christmas_picture{
     width:50%;
 }
 .logo{
-    width:150px;
+    width:60px;
     display:flex;
     flex-direction:row;
 }
