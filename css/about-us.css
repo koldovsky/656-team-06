@@ -23,3 +23,7 @@
     flex-direction: column;
     height: 100%;
 }
+.christmas_picture{
+    width: 50%;
+    flex:1;
+}
