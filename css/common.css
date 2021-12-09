@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+:root{
+    font-family:'Times New Roman', Times, serif;
+    color:#2F4F4F;
+}
+img{
+    display:block;
+    width:100%;
+}
