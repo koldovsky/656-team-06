@@ -27,13 +27,13 @@
 }
 .christmas_picture{
     width:50%;
-    margin-left:-4%;
 }
-.logo{
-    width: 50px;
-  display:flex;
-  flex-direction:row;
+  .logo {
+    width: 15px;
+    display:flex;
+    flex-direction:row;
 }
 .text-about-us{
     margin-top:3cm;
+    width:50%;
 }
