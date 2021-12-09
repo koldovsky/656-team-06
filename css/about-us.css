@@ -30,9 +30,8 @@
     margin-left:-4%;
 }
 .logo{
-    width:50px;
-    display:flex;
-    flex-direction:row;
+    width: 50px;
+  margin-top:60%
 }
 .text-about-us{
     margin-top:3cm;
