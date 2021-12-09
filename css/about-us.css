@@ -29,7 +29,7 @@
     width:50%;
 }
   .logo {
-    width: 15px;
+    width: 50ppx;
     display:flex;
     flex-direction:row;
 }
