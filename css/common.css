@@ -1,0 +1,12 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+:root{
+    font-family: "Playfair Display", serif;
+     
+
+}

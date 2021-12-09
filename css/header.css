@@ -1,0 +1,37 @@
+.header__nav-top{
+    background-color: rgb(187, 37, 40);
+}
+.header__logo {
+    width="96";
+    padding-left: 10px; ;
+}
+.header__all{
+    background-color: rgb(255, 255, 255);
+}
+.header__block-text-top{
+    color: rgb(35, 35,35);
+    font-size: 48px;
+}
+.header__block-text-one{
+    color: rgb(187, 37, 40);
+    font-family:"Grand Hotel", undefined;
+    font-size: 14px; 
+}
+.header__block-text-second{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    color: rgb(79, 79, 79);
+}
+.header__menu{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.header__menu-items{
+    text-decoration: none;
+    color:rgb(35, 35,35);
+}
+.header__menu-items:hover {
+    color: rgb(161, 27, 38);
+}
