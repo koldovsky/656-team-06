@@ -30,10 +30,12 @@
 }
 .header__nav-logo-img{
     width: 96px;
+    padding: 10px;
 }
 .header__menu{
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .header__menu-items {
@@ -55,13 +57,13 @@
         flex-direction: column;
         justify-content: space-around;
         flex: 1;
+        align-items: center;
     }
     .header__menu{
         display: flex;
         flex-direction: row;
-
         flex: 1;
-        
+        justify-content: space-around;
     }
     .header__nav-top{
         display: flex;
@@ -83,7 +85,15 @@
         flex-direction: row;
         flex:1;
     }
+    .conteiner{
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        padding: 0px 40px;
+        width: 100%;
+    }
 }
+
 .conteiner-white{
     position: relative;
 }
