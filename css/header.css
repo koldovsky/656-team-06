@@ -1,24 +1,24 @@
 
-.header__nav-top{
-    background-color: rgb(187, 37, 40);
+.header__nav-top {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 .header__top-nav-phone {
     font-family: "Fira Sans", sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(187, 37, 40);
     font-size: 16px;
     justify-content: space-around;
 }
 .header__top-nav-email{
     font-family: "Fira Sans", sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(187, 37, 40);
     font-size: 16px;
     justify-content: space-around;
 }
 .header__time{
     font-family: "Fira Sans", sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(79, 79, 79);
     font-size: 16px;
     justify-content: space-around;
 }
@@ -26,16 +26,63 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column-reverse;
 }
 .header__nav-logo-img{
     width: 96px;
 }
+.header__menu{
+    display: flex;
+    flex-direction: column;
+}
+
 .header__menu-items {
     text-decoration: none;
     color: rgb(35, 35, 35);
 }
 .header__menu-items:hover {
     color:rgb(187, 37, 40);
+    text-decoration: underline;
+}
+.header__fab-top{
+    color: rgb(79, 79, 79);
+    justify-content: space-around;
+
+}
+@media(min-width:600px){
+    .header__nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex: 1;
+    }
+    .header__menu{
+        display: flex;
+        flex-direction: row;
+
+        flex: 1;
+        
+    }
+    .header__nav-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex:1;
+        background-color: rgb(187, 37, 40);
+        
+    }
+    .header__top-nav-phone , .header__top-nav-email,.header__time{
+        color: rgb(255, 255, 255);
+        justify-content: space-around;
+        flex: 1;
+        flex-direction: row;
+    }
+    .header__menu-items{
+        flex: 1;
+        justify-content: space-around;
+        flex-direction: row;
+        flex:1;
+    }
 }
 .conteiner-white{
     position: relative;
@@ -45,8 +92,6 @@
     background-color: rgb(255, 255, 255);
     bottom: 400px;
     padding:40px ;
-    
-
 
 }
 .header__block-text-one{
