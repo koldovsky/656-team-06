@@ -1,3 +1,21 @@
+.header__nav-top-mobile{
+    color: rgb(79, 79, 79);
+    font-family: "Fira Sans", sans-serif;
+}
+.header__top-nav-phone-mobile,.header__top-nav-email-mobile{
+    color: rgb(187, 37, 40);
+    font-family: "Fira Sans", sans-serif;
+    text-decoration: none;
+}
+.header__nav-top-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+@media(min-width:600px){
+    .header__nav-top-mobile{
+    display: none;
+}
+}
 .header__nav-top{
     display: none;
 }
@@ -22,7 +40,9 @@
 }
 .header__logo-img{
     width: 96px;
+    display: block;
     padding: 10px;
+    
 }
 .header__menu-items {
     text-decoration: none;
@@ -35,6 +55,7 @@
 .header__fab-top{
     color: rgb(79, 79, 79);
     justify-content: space-around;
+}
 
 }
 .header__nav{
@@ -43,15 +64,35 @@
     align-items: center;
     flex-direction: column-reverse;
 }
+@media(min-width:600px){
+    .header__nav{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+}
+    
 .header__menu{
     display: flex;
     flex-direction: column;
 }
 @media(min-width:600px){
-    .container{
-        display: flex;
-   .header__nav{
+   .header__menu{
        flex-direction: row;
+       justify-content: space-around;
+       flex: 1;
+       padding: 15px;
    }
-   
-  {
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width:600px){
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+}
