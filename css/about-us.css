@@ -29,6 +29,7 @@
     display:flex;
     flex-direction:row;
     background-color:rgb(243, 238, 232);
+}
 
 .text-about-us{
     margin-left:175px; 
@@ -37,14 +38,16 @@
 
 .christmas_picture{
     flex:1;
+    min-width: 500px;
 }
 .branch{
     width: 60px !important;
     margin-left:175px;
 }
 
-@media screen and (min-width:580px){
+@media screen and (max-width:580px){
     .about-us{
         flex-direction:column;
+        background-color:rgb(255, 255, 232);
     }
 }
