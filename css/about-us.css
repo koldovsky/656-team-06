@@ -27,16 +27,16 @@
 
 .about-us{
     display:flex;
-    flex-diraction:row;
+    flex-diraction :row;
     background-color:rgb(243, 238, 232);
 
 .text-about-us{
     margin-left:175px; 
 }
 .branch{
-    width:60px;
+    width: 60px !important;
     margin-left:175px;
 }
 .logo{
-width: 50px;
+width: 50px !important;
 }
