@@ -40,9 +40,7 @@
 }
 .header__logo-img{
     width: 96px;
-    display: block;
     padding: 10px;
-    
 }
 .header__menu-items {
     text-decoration: none;
@@ -56,6 +54,18 @@
     color: rgb(79, 79, 79);
     justify-content: space-around;
 }
+@media(min-width:600px){
+    .header__fab-top{
+        margin: 5px;
+        border:solid;
+        border-width: thin;
+        padding: 5px 8px;
+    }
+    .header__fab{
+        margin-right: 10px ;
+    }
+}
+
 
 }
 .header__nav{
@@ -66,6 +76,7 @@
 }
 @media(min-width:600px){
     .header__nav{
+        margin-right: 55px;
         display: flex;
         flex-direction: row;
         flex: 1;
@@ -101,4 +112,41 @@
     height: auto;
     
 }
+}
+.header__block-text-one{
+    font-family: "Grand Hotel", undefined;
+    color: rgb(187, 37, 40);
+    font-size: 22px;
+}
+.header__block-text-top{
+    font-family: "Playfair Display", serif;
+    font-size: 56px;
+    color: rgb(35, 35, 35);
+}
+.header__block-text-img{
+    width: 100px;
+    margin: 15px 0px;
+   
+    
+}
+.header__block-text-second{
+    color: rgb(79, 79, 79);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+}
+.button__header-shop{
+    background-color: rgb(187, 37, 40);
+    color: #fff;
+    padding: 10px 25px;
+    font-family:"Fira Sans", sans-serif ;
+    border:rgb(187, 37, 40)solid;
+    margin: 10px;
+}
+.button__header-learn-more {
+    color: rgb(35, 35, 35);
+    font-family:"Fira Sans", sans-serif ;
+    border:rgb(35, 35, 35)solid;
+    background-color: #fff;
+    padding: 10px 25px;
+    margin: 10px;
 }
