@@ -26,11 +26,9 @@
  }
 
 .about-us{
-    display:grid;
-    grid-template-rows:50% 50%;
+    display:flex;
+    flex-diraction:row;
     background-color:rgb(243, 238, 232);
-    background-size:cover;
-}
 
 .text-about-us{
     margin-left:175px; 
