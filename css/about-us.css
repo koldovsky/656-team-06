@@ -38,7 +38,6 @@
 
 .christmas_picture{
     flex:1;
-    min-width: 600px;
     min-height: 100vh;
 }
 .branch{
@@ -46,7 +45,7 @@
     margin-left:175px;
 }
 .logo{
-    width:50px !important;
+    width:80px !important;
     display:flex; 
     
 }
