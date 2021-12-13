@@ -39,6 +39,7 @@
 .christmas_picture{
     height:100%;
     object-fit:cover;
+    object-position: 25.129% 10.276%;
     line-height:28,08px;
 }
 .branch{
@@ -47,14 +48,13 @@
 }
 .logo{
     width:80px !important;
-
-    
+    display: grid;   
 }
 
 @media screen and (max-width:768px){
     .about-us{
-        display:grid;
-
+       display:flex;
+       flex-direction:column;
      
     }
 }
