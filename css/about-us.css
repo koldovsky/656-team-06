@@ -5,7 +5,7 @@
     font-weight:400;
     text-align:left;
     margin-top:120px;
-    margin-left:175px;
+    
 }
 .heading-all_kind{
     font-family:"Playfair Display", serif;
@@ -13,7 +13,7 @@
     color:#232323;
     font-size:56px;
     text-align:left;
-    margin-left:175px;
+    
 }
 .text-christmas{
     color:#4f4f4f ;
@@ -21,38 +21,40 @@
     font-family: "Fira Sans",sans-serif;
     font-weight: 400;
     text-align:left;
-    margin-left:175px;
+
 
  }
 
 .about-us{
-    display:flex;
-    flex-direction:row;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
     background-color:rgb(243, 238, 232);
 }
 
 .text-about-us{
-    margin-left:175px; 
-    flex:1;
+    padding-left: 30px;
+}
 }
 
 .christmas_picture{
-    flex:1;
-    min-height: 100vh;
+    height:100%;
+    object-fit:cover;
+    line-height:28,08px;
 }
 .branch{
-    width: 60px !important;
-    margin-left:175px;
+    width: 80px !important;
+
 }
 .logo{
     width:80px !important;
-    display:flex; 
+
     
 }
 
-@media screen and (max-width:580px){
+@media screen and (max-width:768px){
     .about-us{
-        flex-direction:column;
-        background-color:rgb(255, 255, 232);
+        display:grid;
+
+     
     }
 }
