@@ -38,11 +38,17 @@
 
 .christmas_picture{
     flex:1;
-    min-width: 500px;
+    min-width: 600px;
+    min-height: 100vh;
 }
 .branch{
     width: 60px !important;
     margin-left:175px;
+}
+.logo{
+    width:50px !important;
+    display:flex; 
+    
 }
 
 @media screen and (max-width:580px){
