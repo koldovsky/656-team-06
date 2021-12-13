@@ -43,12 +43,13 @@
     line-height:28,08px;
 }
 .branch{
-    width: 80px !important;
+    width: 100px !important;
 
 }
 .logo{
     width:80px !important;
-    display: grid;   
+    display: flex;
+   flex-direction:row;
 }
 
 @media screen and (max-width:768px){
