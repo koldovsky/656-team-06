@@ -1,15 +1,18 @@
 .header__nav-top-mobile{
     color: rgb(79, 79, 79);
     font-family: "Fira Sans", sans-serif;
+    padding: 10px;
 }
 .header__top-nav-phone-mobile,.header__top-nav-email-mobile{
     color: rgb(187, 37, 40);
     font-family: "Fira Sans", sans-serif;
     text-decoration: none;
+    padding: 10px;
 }
 .header__nav-top-mobile{
         display: flex;
         flex-direction: column;
+        padding: 10px;
     }
 @media(min-width:600px){
     .header__nav-top-mobile{
@@ -41,10 +44,16 @@
 .header__logo-img{
     width: 96px;
     padding: 10px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+
 }
 .header__menu-items {
     text-decoration: none;
     color: rgb(35, 35, 35);
+    padding: 15px;
+    font-family: "Fira Sans", sans-serif;;
 }
 .header__menu-items:hover {
     color:rgb(187, 37, 40);
@@ -61,6 +70,9 @@
 .header__fab-top{
     color: rgb(79, 79, 79);
     justify-content: space-around;
+    border:solid;
+    border-width: thin;
+    padding: 5px 8px;
 }
 @media(min-width:600px){
     .header__fab-top{
@@ -70,7 +82,7 @@
         padding: 5px 8px;
     }
     .header__fab{
-        margin-right: 10px ;
+        margin-right: 5px;
     }
 }
 }
@@ -104,7 +116,7 @@
        
    }
 }
-.container{
+.header__container{
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -113,7 +125,7 @@
 }
 
 @media(min-width:600px){
-.container{
+.header__container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -124,6 +136,52 @@
 }
 
 
+.header-img{
+    position: relative;
+    width: 100%;
+    background-size: inherit;
+}
+.header__block-text{
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+}
+.header__block-text-one{
+    font-family: "Grand Hotel", undefined;
+    color: rgb(187, 37, 40);
+    font-size: 16px;
+}
+.header__block-text-top{
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    color: rgb(35, 35, 35);
+}
+.header__block-text-img{
+    width: 100px;
+    margin: 15px 0px;
+}
+.header__block-text-second{
+    color: rgb(79, 79, 79);
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+}
+.button__header-shop{
+    background-color: rgb(187, 37, 40);
+    color: #fff;
+    padding: 10px 25px;
+    font-family:"Fira Sans", sans-serif ;
+    border:rgb(187, 37, 40)solid;
+    margin: 10px;
+}
+.button__header-learn-more {
+    color: rgb(35, 35, 35);
+    font-family:"Fira Sans", sans-serif ;
+    border:rgb(35, 35, 35)solid;
+    background-color: #fff;
+    padding: 10px 25px;
+    margin: 40px 15px;
+}
+@media(min-width:600px){
 .header-img{
     position: relative;
     height: 100vh;
@@ -172,4 +230,5 @@
     background-color: #fff;
     padding: 10px 25px;
     margin: 40px 15px;
+}
 }
