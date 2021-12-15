@@ -22,4 +22,14 @@
     font-family: "Fira Sans", sans-serif;
     font-size: 16px;
     color: rgb(115, 115, 115);
-}
+    font-stretch: 100%;
+    text-align: left;
+    position: relative;
+    }
+.w-image {
+    max-width: 720px;
+    }
+.track-clients {
+    display: block;
+       
+    }

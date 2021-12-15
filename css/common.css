@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Grand+Hotel&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Grand+Hotel&family=Playfair+Display&display=swap');
 *{
     padding: 0;
     margin: 0;
     border: 0;
 }
-:root{
+:root {
     font-family:"Playfair Display", serif;
-    color:rgb(79, 79, 79)
+    color:rgb(79, 79, 79);
 }
-img{
+img {
     display:block;
-    
+    width: 100%;
+}
+.container{
+    max-width: 980px;
+    margin: auto;
 }
