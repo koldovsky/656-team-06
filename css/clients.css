@@ -17,5 +17,9 @@
     color: rgb(187, 37, 40);
     font-family: "Playfair Display", serif;
     font-size: 22px;
-   
+   }
+.w-text-content {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color: rgb(115, 115, 115);
 }
