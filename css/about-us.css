@@ -21,8 +21,6 @@
     font-family: "Fira Sans",sans-serif;
     font-weight: 400;
     text-align:left;
-
-
  }
 
 .about-us{
@@ -34,10 +32,9 @@
 .text-about-us{
     padding-left: 30px;
 }
-}
-
 .christmas_picture{
     height:100%;
+    width:100%;
     object-fit:cover;
     object-position: 25.129% 10.276%;
     line-height:28,08px;
@@ -56,6 +53,5 @@
     .about-us{
        display:flex;
        flex-direction:column;
-     
     }
 }
