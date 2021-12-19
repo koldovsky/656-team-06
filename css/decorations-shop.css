@@ -1,0 +1,12 @@
+.red_boot {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    text-align: center;
+}
+.button__add-to-cart{
+    color: rgb(187, 37, 40);
+    text-align: center;
+    margin-bottom: 10px;
+}
