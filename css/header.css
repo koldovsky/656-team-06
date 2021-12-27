@@ -17,7 +17,7 @@
 @media(min-width:600px){
     .header__nav-top-mobile{
     display: none;
-}
+    }
 }
 .header__nav-top{
     display: none;
@@ -47,7 +47,14 @@
     position: fixed;
     top: 0%;
     left: 0%;
-
+}
+@media(min-width:600px){
+    .header__logo-img{
+    width: 96px;
+    padding: 10px;
+    position: none; 
+    margin: 50px;
+    }
 }
 .header__menu-items {
     text-decoration: none;
@@ -76,16 +83,16 @@
 }
 @media(min-width:600px){
     .header__fab-top{
-        margin: 5px;
         border:solid;
         border-width: thin;
         padding: 5px 8px;
+        margin: 5px;
     }
     .header__fab{
-        margin-right: 5px;
+        margin:15px;
     }
 }
-}
+
 .header__nav{
     display: flex;
     justify-content: space-around;
