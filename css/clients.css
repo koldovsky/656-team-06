@@ -27,9 +27,15 @@
     position: relative;
     }
 .w-image {
-    max-width: 720px;
+    max-width: auto;
+    min-width: auto;
     }
 .track-clients {
-    display: block;
-       
+    display: flex;
+    margin: auto;  
+    justify-content: center;
     }
+    .button {
+        border-radius: 10px;
+        padding: 8px;
+      }
