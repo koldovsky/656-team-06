@@ -34,8 +34,17 @@
     display: flex;
     margin: auto;  
     justify-content: center;
+    padding: 30px;
     }
-    .button {
-        border-radius: 10px;
-        padding: 8px;
-      }
+
+.next {
+    border-radius: 10px;
+    padding: 8px;
+    
+}      
+@media screen and (max-width:768px){
+    .track-clients{
+       display:flex;
+       flex-direction:row;
+    }
+}
