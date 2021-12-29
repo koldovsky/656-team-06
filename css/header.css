@@ -41,10 +41,10 @@
         text-decoration: underline;
     }
 }
-.header__logo-img{
+.header__logo{
     width: 96px;
     padding: 10px;
-    position: fixed;
+    position: absolute;
     top: 0%;
     left: 0%;
 }
@@ -92,7 +92,6 @@
         margin:15px;
     }
 }
-
 .header__nav{
     display: flex;
     justify-content: space-around;
@@ -138,15 +137,16 @@
     justify-content: space-between;
     align-items: center;
     height: auto; 
-    margin: 20px 200px;
+    margin: 20px 100px;
+   }
+ .header__logo-img{
+     margin-left: 170px;
+ }
+     
 }
-}
-
-
 .header-img{
-    position: relative;
     width: 100%;
-    background-size: inherit;
+    background-size: cover;
 }
 .header__block-text{
     position: absolute;
@@ -172,25 +172,41 @@
     font-family: "Fira Sans", sans-serif;
     font-size: 14px;
 }
-.button__header-shop{
+.button__header-shop {
     background-color: rgb(187, 37, 40);
     color: #fff;
     padding: 10px 25px;
-    font-family:"Fira Sans", sans-serif ;
+    font-family:"Fira Sans", sans-serif;
     border:rgb(187, 37, 40)solid;
     margin: 10px;
 }
 .button__header-learn-more {
     color: rgb(35, 35, 35);
-    font-family:"Fira Sans", sans-serif ;
-    border:rgb(35, 35, 35)solid;
+    border:2px solid rgb(35, 35, 35);
     background-color: #fff;
+    padding: 10px 25px;
+    margin: 40px 15px;
+    font-family:"Fira Sans", sans-serif;
+}
+.button__header-shop:hover{
+    background-color: rgb(35, 35, 35);
+    color: #fff;
+    padding: 10px 25px;
+    font-family:"Fira Sans", sans-serif;
+    border: rgb(35, 35, 35);
+    margin: 10px;
+}
+.button__header-learn-more:hover{
+    background-color: rgb(35, 35, 35);
+    color: #fff;
+    font-family:"Fira Sans", sans-serif;
+    border:2px solid rgb(35, 35, 35);
     padding: 10px 25px;
     margin: 40px 15px;
 }
 @media(min-width:600px){
 .header-img{
-    position: relative;
+    background-size: cover;
     height: 100vh;
 }
 .header__block-text{
@@ -222,20 +238,5 @@
     font-family: "Fira Sans", sans-serif;
     font-size: 18px;
 }
-.button__header-shop{
-    background-color: rgb(187, 37, 40);
-    color: #fff;
-    padding: 10px 25px;
-    font-family:"Fira Sans", sans-serif ;
-    border:rgb(187, 37, 40)solid;
-    margin: 10px;
 }
-.button__header-learn-more {
-    color: rgb(35, 35, 35);
-    font-family:"Fira Sans", sans-serif ;
-    border:rgb(35, 35, 35)solid;
-    background-color: #fff;
-    padding: 10px 25px;
-    margin: 40px 15px;
-}
-}
+
