@@ -37,14 +37,17 @@
     padding: 30px;
     }
 
-.next {
-    border-radius: 10px;
-    padding: 8px;
+.button {
+    border-radius: 5px;
+    margin: 100px;
     
 }      
-@media screen and (max-width:768px){
+@media screen and (max-width:720px){
     .track-clients{
        display:flex;
        flex-direction:row;
+       margin: auto;  
+       justify-content: center;
+       padding: 30px;
     }
 }
