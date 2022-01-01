@@ -1,10 +1,23 @@
-<<<<<<< HEAD
+
 .shop-decorations-text-top {
-    color: rgb(35, 35, 35);
+    color: rgb(187, 37, 40);
     font-size: 48px;
     font-family: "Playfair Display", serif;
 }
-=======
+.decorations-category-interior__items {
+    max width:1200px
+}
+.decorations-category__tabs-nav{
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    overflow-y: visible;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    z-index: 1;
+}
 .decorations-category-container{
     display: flex;
     flex-direction: row;
@@ -19,5 +32,3 @@
       "price": 18
    },
 
-]
->>>>>>> a3a48381fcb7322a48ea61f262ed2752c7cb537a
