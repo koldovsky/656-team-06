@@ -1,3 +1,13 @@
+.decorations-category-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+
+
 .red_boot {
     display: flex;
     flex-wrap: wrap;
