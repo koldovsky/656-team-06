@@ -109,26 +109,132 @@
             <img class="branch" src="img/branche.svg" alt="branch">
             <p>Click on the image to see the product details and add it to cart by clicking the button.</p>
         </div>
-        <div class="decorations-category">
-            <p>Interior</p>
-            <p>Wreaths</p>
-            <p>Christmas Balls</p>
-            <p>Stocking</p>
-        </div>
-        <div class="Decorations__Interior">
-            <div class="red_boot">
-                <p>Red Boot</p>
-                <p class="price">$18,00</p>
-                <button class="button__add-to-cart">Add to cart</button>
-            </div>
-            <p>White Deer</p>
-            <button class="button__add-to-cart">Add to cart</button>
-            <p>Gift Box</p>
-            <button class="button__add-to-cart">Add to cart</button>
-            <p>Snowman</p>
-            <button class="button__add-to-cart">Add to cart</button>
-        </div>
+        <div class="decorations-category-container">
+            <div id="decorations-category" class="decorations-category">
+                <div class="decorations-category__tabs-nav">
+                    <a class="tab__link" data-tab="#decorations-category-interior">Interior</a>
+                    <a class="tab__link" data-tab="#decorations-category-wreaths">Wreaths</a>
+                    <a class="tab__link" data-tab="#decorations-category-christmas-balls">Christmas Balls</a>
+                    <a class="tab__link" data-tab="#decorations-category-stocking">Stocking</a>
+                </div>
+                <div id="decorations-category-interior" class="decorations-category-tabs__item decorations-category-interior">
+                        <div class="interior__items">
+                           <div class="decorations-category-interior__items">
+                              <img src="" alt="red_boot">
+                              <span>Red Boot</span>
+                              <strong>$18,00</strong>
+                              <button data-id="red_boot" type="submit"> Add to cart </button>
+                           </div>
+                           <div class="decorations-category-interior__items">
+                            <img src="" alt="white-deer">
+                            <span>White Deer</span>
+                            <strong>$12,00</strong>
+                            <button data-id="white-deer" type="submit"> Add to cart </button> 
+                           </div>.       
+                           <div class="decorations-category-interior__items">
+                            <img src="" alt="gift-box">
+                            <span>Gif<t Box</span>
+                            <strong>$12,00</strong>
+                            <button data-id="gift-box" type="submit"> Add to cart </button>
+                           </div>
+                           <div class="decorations-category-interior__items">
+                            <img src="" alt="snowman">
+                            <span>Snowman</span>
+                            <strong>$10,00</strong>
+                            <button data-id="snowman" type="submit"> Add to cart </button>
+                           </div>     
+                        </div> 
+                </div>       
 
+
+                <div id="decorations-category-wreaths" class="decorations-category-tabs__item decorations-category-wreaths">
+                    <div class="wreaths__items">  
+                        <div class="decorations-category-interior__items">
+                            <img src="" alt="elegant-wreath">
+                            <span>Elegant Wreath</span>
+                            <strong>$78,00</strong>
+                            <button data-id="elegant-wreath" type="submit"> Add to cart </button>
+                         </div>
+                         <div class="decorations-category-interior__items">
+                            <img src="" alt="wreath-with-pine-cons">
+                            <span>Wreath With Pine Cons</span>
+                            <strong>$98,00</strong>
+                            <button data-id="wreath-with-pine-cons" type="submit"> Add to cart </button>
+                         </div>
+                         <div class="decorations-category-interior__items">
+                            <img src="" alt="cinnamon-wreath">
+                            <span>Cinnamon Wreath</span>
+                            <strong>$95,00</strong>
+                            <button data-id="cinnamon-wreath" type="submit"> Add to cart </button>
+                         </div>
+                         <div class="decorations-category-interior__items">
+                            <img src="" alt="citrus-wreath">
+                            <span>Citrus Wreath</span>
+                            <strong>$89,00</strong>
+                            <button data-id="citrus-wreath" type="submit"> Add to cart </button>
+                         </div>
+
+                    </div>
+                </div>
+                       
+                <div id="decorations-category-christmas-balls" class="decorations-category-tabs__item decorations-category-christmas-balls">
+                    <div class="christmas-balls__items">  
+                        <div class="decorations-category-interior__items">
+                            <img src="" alt="red-christmas-balls">
+                            <span>Red Christmas Balls</span>
+                            <strong>$20,00</strong>
+                            <button data-id="red-christmas-balls" type="submit"> Add to cart </button>
+                         </div>
+                         <div class="decorations-category-interior__items">
+                            <img src="" alt="silver-christmas-balls">
+                            <span>Silver Christmas Balls</span>
+                            <strong>$10,00</strong>
+                            <button data-id="silver-christmas-balls" type="submit"> Add to cart </button>
+                         </div>
+                         <div class="decorations-category-interior__items">
+                            <img src="" alt="green-christmas-balls">
+                            <span>Green Christmas Balls</span>
+                            <strong>$10,00</strong>
+                            <button data-id="green-christmas-balls" type="submit"> Add to cart </button>
+                         </div>
+                         <div class="decorations-category-interior__items">
+                            <img src="" alt="gold-christmas-balls">
+                            <span>Gold Christmas Balls</span>
+                            <strong>$10,00</strong>
+                            <button data-id="gold-christmas-balls" type="submit"> Add to cart </button>
+                         </div>
+                    </div>
+                </div>
+
+                <div id="decorations-category-stockings" class="decorations-category-tabs__item decorations-category-stockings">
+                    <div class="stockings__items">
+                        <div class="decorations-category-interior__items">
+                            <img src="" alt="santa-claus-stocking">
+                            <span>Santa Claus Stocking</span>
+                            <strong>$15,00</strong>
+                            <button data-id="santa-claus-stocking" type="submit"> Add to cart </button>
+                         </div>
+                         <div class="decorations-category-interior__items">
+                            <img src="" alt="christmas-red-stocking">
+                            <span>Christmas Red Stocking</span>
+                            <strong>$22,00</strong>
+                            <button data-id="christmas-red-stocking" type="submit"> Add to cart </button>
+                         </div>
+                         <div class="decorations-category-interior__items">
+                            <img src="" alt="stocking-with-pompons">
+                            <span>Stocking With Pompons</span>
+                            <strong>$22,00</strong>
+                            <button data-id="stocking-with-pompons" type="submit"> Add to cart </button>
+                         </div>
+                         <div class="decorations-category-interior__items">
+                            <img src="" alt="stocking-with-balls">
+                            <span>Stocking With Balls</span>
+                            <strong>$18,00</strong>
+                            <button data-id="stocking-with-balls" type="submit"> Add to cart </button>
+                         </div>
+                    </div>
+                </div>
+            </div>
     </section>
     <!--Stefanyshyn Roman end-->
     <!-- Cherniashuk Volodymyr Start-->

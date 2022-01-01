@@ -1,21 +1,23 @@
+<<<<<<< HEAD
 .shop-decorations-text-top {
     color: rgb(35, 35, 35);
     font-size: 48px;
     font-family: "Playfair Display", serif;
 }
-
-
-
-
-.red_boot {
+=======
+.decorations-category-container{
     display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    justify-content: space-between;
-    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px;
 }
-.button__add-to-cart{
-    color: rgb(187, 37, 40);
-    text-align: center;
-    margin-bottom: 10px;
-}
+[
+   {
+      "id": "red_boot",
+      "image": "",
+      "model": "Red Boot",
+      "price": 18
+   },
+
+]
+>>>>>>> a3a48381fcb7322a48ea61f262ed2752c7cb537a
