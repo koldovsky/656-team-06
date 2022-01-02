@@ -8,6 +8,9 @@
     max-width: 1200px;
 }
 .decorations-category__tabs-nav {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial;
     width: 100%;
     margin-left: 0;
     flex-direction: row;
@@ -19,6 +22,22 @@
     margin-left: 15px;
     z-index: 1;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.containerTab {
+    padding: 20px;
+    color: white;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
