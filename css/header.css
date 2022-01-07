@@ -17,6 +17,7 @@
         font-size: 16px;
         font-family: "Fira Sans", sans-serif;
         margin-left: 25px;
+        text-decoration: none;
     }
     .header__top-nav-phone,.header__top-nav-email{
         color: #fff;
@@ -28,23 +29,18 @@
         text-decoration: underline;
     }
 }
-
+.header__logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .header__logo-img{
     width: 96px;
     margin: 25px;
 }
 
-.header__menu-items{
-    text-decoration: none;
-    font-size: 16px;
-    font-family: "Fira Sans", sans-serif;
-    color: rgb(35, 35, 35);
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-    align-items: center;
-}
+
 .header__menu-item:hover{
     color: rgb(187, 37, 40);
 }
@@ -111,20 +107,38 @@
     min-height: 100vh;
     background-position-x: 25%;
 }
+.header__menu-items{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Fira Sans", sans-serif;
+    color: rgb(35, 35, 35);
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+    overflow: hidden;
+}
 .header__block-text{
-    position: absolute;
+    position: relative;
     background-clip:border-box;
     background-color: #fff;
-    height: 50%;
+    height: 60%;
     margin-top: -500px;
     margin-left: 80px;
     padding: 35px;
 }
+@media(min-width:600px){
+    .header__block-text{
+        width: 500px;
+        margin-left: 120px;
+        height: 40%;
+    }
+}
 .header__block-text-one{
     color: rgb(187, 37, 40);
-    font-size: 14px;
+    font-size: 18px;
     font-family: "Grand Hotel", undefined;
-    margin: 15px;
+    margin: 15px 0;
 }
 .header__block-text-top{
     color: rgb(35, 35, 35);
@@ -133,10 +147,94 @@
 }
 .header__block-text-img{
     width: 100px;
-    margin: 15px;
+    margin: 20px 0;
 }
 .header__block-text-second{
     color: rgb(79, 79, 79);
     font-family: "Fira Sans", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
+    margin: 35px 0;
+}
+.button__header-shop{
+    font-size: 10.8px;
+    font-family: "Fira Sans", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid rgb(187, 37, 40);
+    background-color: rgb(187, 37, 40);
+    width: 91.75px;
+    height: 45.5px;
+    padding: 10px 25px;
+    position: relative;
+}
+.button__header-learn-more{
+    font-size: 10.8px;
+    font-family: "Fira Sans", sans-serif;
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+    font-weight: 700;
+    border: 2px solid rgb(35, 35, 35);
+    background-color: #fff;
+    width: 91.75px;
+    height: 45.5px;
+    padding: 10px 25px;
+    position: relative;
+    margin-left: 10px;
+}
+.navigation-burger{
+ display: none;
+}
+@media (max-width:600px){
+    .header{
+        position: relative;
+    }
+    .navigation-burger{
+        z-index: 5;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+        margin: 50px;
+    }
+    .navigation-burger span,
+    .navigation-burger::before,
+    .navigation-burger::after{
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: rgb(35, 35, 35);
+    }
+    .navigation-burger::before,
+    .navigation-burger::after{
+        content: " ";
+    }
+    .navigation-burger::before{
+        top:0;
+    }
+    .navigation-burger::after{
+        bottom: 0;
+    }
+    .navigation-burger span{
+        top:50%;
+        transform: scale(1) translate(0px,-50%);
+    }
+    
+    .header__container{
+        position: fixed;
+        top: -100;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        z-index: 3;
+        overflow: auto;
+    }
+    .header__container_active{
+        top:0;
+    }
+   
 }
