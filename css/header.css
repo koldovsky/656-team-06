@@ -119,13 +119,17 @@
     overflow: hidden;
 }
 .header__block-text{
-    position: relative;
+    position: absolute;
+    top:200px;
     background-clip:border-box;
     background-color: #fff;
     height: 60%;
-    margin-top: -500px;
+    margin-bottom: -500px;
     margin-left: 80px;
     padding: 35px;
+}
+.main-block{
+    position: relative;
 }
 @media(min-width:600px){
     .header__block-text{
@@ -186,9 +190,6 @@
  display: none;
 }
 @media (max-width:600px){
-    .header{
-        position: relative;
-    }
     .navigation-burger{
         z-index: 5;
         display: block;
@@ -222,8 +223,7 @@
         top:50%;
         transform: scale(1) translate(0px,-50%);
     }
-    
-    .header__container{
+    .header__menu{
         position: fixed;
         top: -100;
         left: 0;
@@ -231,7 +231,8 @@
         height: 100%;
         background-color: #fff;
         z-index: 3;
-        overflow: auto;
+       overflow: auto;;
+        transition: top 0.3s ease 0s;
     }
     .header__container_active{
         top:0;
