@@ -1,7 +1,12 @@
+.c-bloks {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
 .testimonials {
     color: rgb(187, 37, 40);
     font-family: "Grand Hotel", undefined;
-    font-size: 14px;
+    font-size: auto;
+    font-weight: 400;
     }
 .our-happy-clients {
     color: rgb(35, 35, 35);
@@ -29,21 +34,23 @@
 .w-image {
     max-width: auto;
     min-width: auto;
+    
+    
     }
 .track-clients {
     display: flex;
-    margin: auto;  
+    margin: 30px;  
     justify-content: center;
-    padding: 30px;
-    }
+    padding: 40px;
 
-.button {
-    border-radius: 5px;
-    margin: 100px;
+    }
+.w-block-1, .w-block-2, .w-block-3 {
+    padding: 10px;
+}
     
-}      
+      
 @media screen and (max-width:720px){
-    .track-clients{
+    .track-clients, .c-bloks, .arrow {
        display:flex;
        flex-direction:row;
        margin: auto;  
@@ -51,3 +58,49 @@
        padding: 30px;
     }
 }
+
+.arrow {
+    cursor: pointer;
+    position: relative;
+    padding: 20px; 
+            box-shadow: 1px -1px 0 1px rgb(221, 221, 221) inset;
+    -webkit-box-shadow: 2px -2px rgb(29, 23, 23) inset;
+    border: solid transparent;
+    border-width: 0 0 4rem 4rem;
+    z-index: 1;
+   
+       
+    
+}
+  .arrow:hover {
+            box-shadow: 2px -2px 0 2px black inset;
+    -webkit-box-shadow: 4px -4px rgb(230, 230, 230) inset;
+    
+  }
+  .arrow-right{ 
+    transform: rotate(225deg);
+    align-items: center;
+    border-radius: 50%;
+    
+}
+  .arrow-left  { transform:rotate(45deg) } 
+  .bg {
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      float: left;
+
+  } 
+  .next {
+    
+      
+      float: right;
+  }
+   
+
+
+
+
+
+  
+
+

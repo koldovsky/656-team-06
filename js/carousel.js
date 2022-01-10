@@ -1,3 +1,4 @@
+
 (function () {
     const slides = [
        `<div class="w-block-1">
@@ -27,6 +28,7 @@
 <p>Decmber 23, 2021</p>
 </div>`
     ];
+    
 
     let currentSlide = 0;
     let secondSlide = 1;
@@ -34,10 +36,11 @@
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.track-clients');
         slideContainer.innerHTML = slides[currentSlide];
+        if (window.innerWidth > 768) {
         secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
         slideContainer.innerHTML += slides[secondSlide];     
     }
-
+    }
     function nextSlide() { 
         if(secondSlide + 1 >= slides.length) {
             return;
