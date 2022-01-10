@@ -230,9 +230,12 @@
         transition: top 0.3s ease 0s;
     }
     .header__menu_active{
-        top:17%;
+        top:15%;
     }
    .header__container{
+       overflow: hidden;
+   }
+   .lock{
        overflow: hidden;
    }
 }
