@@ -34,10 +34,11 @@
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.track-clients');
         slideContainer.innerHTML = slides[currentSlide];
+        if (window.innerWidth > 768) {
         secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
         slideContainer.innerHTML += slides[secondSlide];     
     }
-
+    }
     function nextSlide() { 
         if(secondSlide + 1 >= slides.length) {
             return;
