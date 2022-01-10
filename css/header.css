@@ -1,7 +1,6 @@
 .header__nav-top{
     display: none;
 }
-
 @media(min-width:600px){
     .header__nav-top{
         display: flex;
@@ -34,13 +33,10 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
 .header__logo-img{
     width: 96px;
     margin: 25px;
 }
-
-
 .header__menu-item:hover{
     color: rgb(187, 37, 40);
 }
@@ -58,7 +54,6 @@
         margin-right: 15px;
     }
 }
-
 .header__nav-top-mobile{
     display: flex;
     flex-direction: column;
@@ -235,7 +230,9 @@
         transition: top 0.3s ease 0s;
     }
     .header__menu_active{
-        top:15%;
+        top:17%;
     }
-   
+   .header__container{
+       overflow: hidden;
+   }
 }
