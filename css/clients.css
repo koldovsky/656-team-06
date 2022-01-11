@@ -22,6 +22,7 @@
     color: rgb(187, 37, 40);
     font-family: "Playfair Display", serif;
     font-size: 22px;
+    padding-top: 20px;
    }
 .w-text-content {
     font-family: "Fira Sans", sans-serif;
@@ -30,6 +31,7 @@
     font-stretch: 100%;
     text-align: left;
     position: relative;
+    padding-top: 34px;
     }
 .w-image {
     max-width: auto;
@@ -59,48 +61,58 @@
     }
 }
 
-.arrow {
+.button {
+    -webkit-appearance: none;
+    background: transparent;
+    border: 5;
+    outline:5;
+  }
+
+  svg {
+    padding: 5px;
+    height: 20px;
+  }
+  .arrow {
     cursor: pointer;
     position: relative;
-    padding: 20px; 
-            box-shadow: 1px -1px 0 1px rgb(221, 221, 221) inset;
-    -webkit-box-shadow: 2px -2px rgb(29, 23, 23) inset;
-    border: solid transparent;
-    border-width: 0 0 4rem 4rem;
-    z-index: 1;
-   
-       
-    
-}
-  .arrow:hover {
-            box-shadow: 2px -2px 0 2px black inset;
-    -webkit-box-shadow: 4px -4px rgb(230, 230, 230) inset;
-    
-  }
-  .arrow-right{ 
-    transform: rotate(225deg);
-    align-items: center;
+    top: 100%;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+    background-color: rgb(59, 55, 55);
+    opacity: .89;
+    margin-right: 50px;
+    text-align: center;
     
-}
-  .arrow-left  { transform:rotate(45deg) } 
-  .bg {
-      background-color: rgb(255, 255, 255);
-      border-radius: 50%;
-      float: left;
-
-  } 
-  .next {
-    
-      
-      float: right;
   }
-   
 
-
-
-
-
+  .left {
+    left: 0%;
+  }
   
-
-
+  .right {
+  margin-right: 50px;
+  }
+  .left:hover polyline,
+  .left:focus polyline {
+    stroke-width: 3;
+  }
+  
+  .left:active polyline {
+    stroke-width: 6;
+    transition: all 100ms ease-in-out;
+  }
+  
+  .right:hover polyline,
+  .right:focus polyline {
+    stroke-width: 2;
+  }
+  
+  .right:active polyline {
+    stroke-width: 6;
+    transition: all 100ms ease-in-out;
+  }
+  
+  polyline {
+    transition: all 250ms ease-in-out;
+  }
