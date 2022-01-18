@@ -14,10 +14,15 @@
 }
 
 .all_kinds_textb {
-
+    width: 50%;
+    background-color: ;
 }
 
-.all_kinds_textm .p:first-child {
+.all_kinds_textm {
+    text-align: center;
+}
+
+.all_kinds_textm p:first-child {
     color: rgb(187, 37, 40);
     font-size: 18px;
     font-family: "Grand Hotel";
