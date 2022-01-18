@@ -14,5 +14,11 @@
 }
 
 .all_kinds_textb {
-    
+
+}
+
+.all_kinds_textb p {
+    color: rgb(187, 37, 40);
+    font-size: 18px;
+    font-family: "Grand Hotel";
 }
