@@ -10,7 +10,7 @@
 }
 
 .all_kinds_bck {
-    background: url(/img/kimnata.jpg);
+    background-image: url(/img/kimnata.jpg)no-repeat;
 }
 
 .all_kinds_textb {
