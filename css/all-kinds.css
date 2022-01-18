@@ -1,0 +1,18 @@
+.all_kinds {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.all_kinds_flb {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all_kinds_bck {
+    background: url();
+}
+
+.all_kinds_textb {
+    
+}
