@@ -17,7 +17,7 @@
 
 }
 
-.all_kinds_textb p {
+.all_kinds_textm .p:first-child {
     color: rgb(187, 37, 40);
     font-size: 18px;
     font-family: "Grand Hotel";
